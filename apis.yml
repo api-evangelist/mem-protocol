@@ -1,7 +1,30 @@
 aid: mem-protocol
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mem-protocol.png
 name: Mem Protocol
-description: Mem Protocol is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Mem Protocol (mem.so) was a San Francisco based startup, founded in 2021,
+  building tools for the social layer of web3 - a decentralized social-media
+  protocol focused on user data sovereignty, portable social graphs, and
+  verifiable on-chain identity. The company raised a ~$3.1M seed round in 2021
+  led by Andreessen Horowitz (a16z crypto), with participation from Balaji
+  Srinivasan and Polychain's Olaf Carlson-Wee. As of this enrichment pass the
+  project appears dormant/defunct - the official domain mem.so resolves only to
+  a parking IP and times out, and the alternate domain memprotocol.xyz redirects
+  to a GoDaddy for-sale page. No live website, developer portal, API
+  documentation, GitHub organization, SDK packages, or public API surface could
+  be found. This profile remains an identity-only company record; there is
+  nothing to enrich beyond the historical facts below.
 url: https://raw.githubusercontent.com/api-evangelist/mem-protocol/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,32 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-domain-status:
+  mem.so: "parked (Namecheap parking IP 162.255.119.8; https times out; www.mem.so does not resolve)"
+  memprotocol.xyz: "for-sale (307 redirect to forsale.godaddy.com)"
+x-founded: '2021'
+x-headquarters: San Francisco, California, United States
+x-funding: "~$3.1M seed (2021), led by a16z crypto; Balaji Srinivasan, Polychain (Olaf Carlson-Wee)"
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Web3
+- Decentralized Social
+- Social Graph
+- Blockchain
+- Identity
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
