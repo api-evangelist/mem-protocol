@@ -39,7 +39,7 @@ x-domain-status:
 x-founded: '2021'
 x-headquarters: San Francisco, California, United States
 x-funding: "~$3.1M seed (2021), led by a16z crypto; Balaji Srinivasan, Polychain (Olaf Carlson-Wee)"
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
